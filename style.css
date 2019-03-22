@@ -1,0 +1,50 @@
+ * {
+     padding: 0;
+     margin: 0%;
+ }
+ 
+ .master-navigator {
+     width: 100%;
+     border-right: 2px solid #000;
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%;
+     display: block;
+     overflow-y: auto;
+     background-color: white;
+     z-index: 9999;
+ }
+ 
+ .master-navigator h1 {
+     font-size: 40px;
+ }
+ 
+ .master-navigator ul {
+     list-style: none;
+     overflow-y: auto;
+     overflow-x: hidden;
+ }
+ 
+ .master-navigator ul li {
+     width: 500px;
+     border-top: 2px solid #000;
+     margin-bottom: 20px;
+     margin-top: 20px;
+ }
+ 
+ .master-navigator ul li a {
+     font-size: 24px;
+     margin: 20px;
+     text-decoration: none !important;
+ }
+ 
+ .documentaion {
+     margin-left: 35%;
+ }
+ 
+ .code-box {
+     padding: 20px;
+     background-color: rgb(245, 243, 243);
+     border-radius: 20px;
+ }
